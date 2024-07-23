@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
+import 'package:news_app/presentations/pages/details/news_detail_screen.dart';
 import 'package:news_app/utilities/extensions/sizedbox_extension.dart';
 import '../../../cubits/category/category_cubit.dart';
 import '../../../utilities/extensions/context_extension.dart';
@@ -40,16 +41,21 @@ class HomeScreen extends StatelessWidget {
                         vertical: 2,
                         horizontal: 2,
                       ),
-                      child: SizedBox(
-                        child: Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            ImageView(articles: news.articles![i],),
-                            Positioned(
-                              bottom: 20,
-                              child: CardView(articles: news.articles![i],),
-                            )
-                          ],
+                      child: InkWell(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>NewsDetailScreen(articles: news.articles![i],)));
+                        },
+                        child: SizedBox(
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              ImageView(articles: news.articles![i],),
+                              Positioned(
+                                bottom: 20,
+                                child: CardView(articles: news.articles![i],),
+                              )
+                            ],
+                          ),
                         ),
                       ),
                     );
