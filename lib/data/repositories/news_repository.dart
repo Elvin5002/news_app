@@ -9,6 +9,7 @@ class NewsRepository {
 
     try{
       String newsUrl = 'https://newsapi.org/v2/top-headlines?sources=$newsChannel&apiKey=8a5ec37e26f845dcb4c2b78463734448';
+
       //String country = 'https://newsapi.org/v2/top-headlines?country=tr&apiKey=8a5ec37e26f845dcb4c2b78463734448';
       /*final response = await http.get(Uri.parse(newsUrl));
       https://newsapi.org/v2/everything?q=Apple&from=2024-07-22&sortBy=popularity&apiKey=API_KEY

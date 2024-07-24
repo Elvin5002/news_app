@@ -2,11 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/data/models/news_channel_headlines_model.dart';
 import 'package:news_app/utilities/extensions/sizedbox_extension.dart';
 
-class NewsDetailScreen extends StatelessWidget {
-  const NewsDetailScreen({Key? key, required this.articles}) : super(key: key);
+import '../../../data/models/news_categories_model.dart';
+
+class NewsCategoryDetailsScreen extends StatelessWidget {
+const NewsCategoryDetailsScreen({ Key? key, required this.articles }) : super(key: key);
 
   final Articles articles;
 
@@ -86,7 +87,7 @@ class NewsDetailScreen extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
           ],
         ),
       ),
