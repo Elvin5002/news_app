@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'presentations/pages/splash/splash_screen.dart';
+import 'package:news_app/service_locator.dart';
+import 'presentation/pages/splash/splash_screen.dart';
 
-void main() {
+void main() async{
+  await initializeDependencies();
   runApp(const MyApp());
 }
 

@@ -1,1 +1,0 @@
-class AppBoxDecoration { AppBoxDecoration._(); }

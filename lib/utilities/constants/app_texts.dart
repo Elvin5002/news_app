@@ -1,1 +1,0 @@
-class AppTexts { AppTexts._(); }
