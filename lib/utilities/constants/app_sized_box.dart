@@ -1,1 +1,0 @@
-class AppSizedBox { AppSizedBox._(); }
