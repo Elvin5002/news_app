@@ -56,16 +56,3 @@ A dynamic and feature-rich news application built with **Flutter**. This app ena
 4. Click on an article to view details.
 5. Use the bookmark button to save articles for later.
 6. Search for news using the search bar.
-
-## Upcoming Features
-
-- **Push Notifications**: Get real-time updates on breaking news.
-- **User Preferences**: Personalize your feed by selecting favorite categories and sources.
-- **Multi-Language Support**: View news in different languages.
-
----
-
-### Acknowledgments
-
-- Thanks to [NewsAPI](https://newsapi.org/) for providing a robust API for news data.
-- Flutter and Dart communities for their resources and support.
