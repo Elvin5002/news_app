@@ -12,7 +12,7 @@ A dynamic and feature-rich news application built with **Kotlin**. This app enab
 
 | Home Screen | Category Screen | Article Detail |
 |-------------|-----------------|----------------|
-| ![Home Screen](assets/screenshots/home.jpg) | ![Category Screen](assets/screenshots/category.jpg) | ![Article Detail](screenshots/details.jpg) |
+| ![Home Screen](assets/screenshots/home.jpg) | ![Category Screen](assets/screenshots/category.jpg) | ![Article Detail](assets/screenshots/details.jpg) |
 
 ## Technologies Used
 
